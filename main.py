@@ -1,9 +1,6 @@
-import pymongo
+
 from pymongo import MongoClient
 from fastapi import FastAPI
-import time
-import multiprocessing
-import os
 
 app = FastAPI()
 cluster = MongoClient("mongodb+srv://arunrnair:rYDMASQUaegdRMpS@cluster0.kusswi6.mongodb.net/?retryWrites=true&w=majority")
