@@ -10,6 +10,7 @@ distlib==0.3.6
 dnspython==2.2.1
 fastapi==0.79.0
 filelock==3.8.0
+gunicorn @ git+https://github.com/benoitc/gunicorn.git@0b953b803786997d633d66c0f7c7b290df75e07c
 Flask==2.2.2
 frida==15.2.2
 frida-tools==11.0.0
