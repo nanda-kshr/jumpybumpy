@@ -30,7 +30,7 @@ def get_user(user : str, password : str):
 
 @app.get("/login/{user}/{password}")
 def get_userslist(user: str, password : str):
-    for x in collection.find({},{ "_id": 0, "user": 1, "password": 1, }):
+    for x in collection.find({},{ "_id": 0, "user": 1, "password": 1}):
         print(x)
         userr = x["user"]
         passwordd = x["password"]
