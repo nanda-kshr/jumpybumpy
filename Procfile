@@ -1,1 +1,1 @@
-web: gunicorn instaupapi:app
+web: gunicorn main:app
